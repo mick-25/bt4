@@ -428,28 +428,28 @@ let torrent_results = [];
 
 const hosts = [
   {
-    host: "http://37.187.115.225:9117",
-    apiKey: "1yuf4c173fa32p9owvntn8wr9tcg9rwa",
+    host: "http://157.97.88.29:9117",
+    apiKey: "xhsfzj61y4r5m6k78jmumk0veumwnqg1",
   },
   {
-    host: "http://163.172.39.206:9117",
-    apiKey: "9q73f5xcto6e4j5txmg3g8kg24uex2jr",
+    host: "http://23.121.245.187:9117",
+    apiKey: "2b67cqgelfurpy359pnb546gc9jj9i7d",
   },
   {
-    host: "http://163.172.63.52:9117",
-    apiKey: "rmxt3f5gevz6pq3znmc4j6h3t6b4vnvf",
+    host: "http://98.246.174.104:9117",
+    apiKey: "r2q9v8pmrbzyemjk0cfa15opw9sam99f",
+  },
+  {
+    host: "http://81.150.31.153:9117",
+    apiKey: "1c99yaajym29qbrb715q3me1qwj2d42g",
   },
   {
     host: "http://209.141.51.175:9117",
-    apiKey: "cmrenk8hgy1u738worvkmfiuif5fa14c",
+    apiKey: "cmrenk8hgy1u738worvkmfiuif5fa14c7",
   },
   {
-    host: "http://164.132.53.123:9117",
-    apiKey: "ue28kxr9yy0qcz5z66nltx22syklw9ru",
-  },
-  {
-    host: "http://176.31.181.151:9117",
-    apiKey: "unt16viookxvckfrv8js8a64uu62o3yf",
+    host: "http://195.154.176.233:9117",
+    apiKey: "wditbmg7gimijom3ayxdicceshdbl7ou",
   },
 ];
 
@@ -464,7 +464,7 @@ let fetchTorrent = async (query, type = "series") => {
       : type == "movie"
       ? "&Category%5B%5D=8000"
       : ""
-  }&Tracker%5B%5D=torrentscsv&cache=false`;
+  }&Tracker%5B%5D=btsow&cache=false`;
 
   return await fetch(url, {
     headers: {
