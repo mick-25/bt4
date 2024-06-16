@@ -574,11 +574,11 @@ app
 
     //
     var json = {
-      id: "hyy.jackettcsv.stream",
+      id: "hyy.jackettbts.stream",
       version: "1.0.2",
-      name: "Torrent.csv",
-      description: "Movie & TV Streams from Jackett ",
-      logo: "https://ia804607.us.archive.org/13/items/github.com-Jackett-Jackett_-_2022-01-03_07-53-24/__ia_thumb.jpg",
+      name: "BTsow",
+      description: "Movie & TV Streams from BTsow",
+      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeXvJ_vyPzoWREeNReAeWDZ4aL6ilQ2j2WdIuLC3T_83A6YPPmtFmZBYxcWfsT5ZST81k&usqp=CAU",
       resources: [
         {
           name: "stream",
