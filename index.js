@@ -432,8 +432,8 @@ const hosts = [
     apiKey: "xhsfzj61y4r5m6k78jmumk0veumwnqg1",
   },
   {
-    host: "http://23.121.245.187:9117",
-    apiKey: "2b67cqgelfurpy359pnb546gc9jj9i7d",
+    host: "http://51.15.188.102:9117",
+    apiKey: "emnk2cv3q4hm02qyshprtwwybv0t3ghe",
   },
   {
     host: "http://98.246.174.104:9117",
@@ -447,11 +447,7 @@ const hosts = [
     host: "http://209.141.51.175:9117",
     apiKey: "cmrenk8hgy1u738worvkmfiuif5fa14c7",
   },
-  {
-    host: "http://195.154.176.233:9117",
-    apiKey: "wditbmg7gimijom3ayxdicceshdbl7ou",
-  },
-];
+  ];
 
 let fetchTorrent = async (query, type = "series") => {
   let hostdata = hosts[Math.floor(Math.random() * hosts.length)];
