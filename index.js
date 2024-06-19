@@ -427,23 +427,7 @@ const streamFromMagnet = (
 let torrent_results = [];
 
 const hosts = [
-  {
-    host: "http://157.97.88.29:9117",
-    apiKey: "xhsfzj61y4r5m6k78jmumk0veumwnqg1",
-  },
-  {
-    host: "http://51.15.188.102:9117",
-    apiKey: "emnk2cv3q4hm02qyshprtwwybv0t3ghe",
-  },
-  {
-    host: "http://98.246.174.104:9117",
-    apiKey: "r2q9v8pmrbzyemjk0cfa15opw9sam99f",
-  },
-  {
-    host: "http://81.150.31.153:9117",
-    apiKey: "1c99yaajym29qbrb715q3me1qwj2d42g",
-  },
-  {
+    {
     host: "http://209.141.51.175:9117",
     apiKey: "cmrenk8hgy1u738worvkmfiuif5fa14c7",
   },
@@ -456,11 +440,11 @@ let fetchTorrent = async (query, type = "series") => {
     hostdata.apiKey
   }&Query=${query}${
     type == "series"
-      ? "&Category%5B%5D=8000"
+      ? "&Category%5B%5D=5000"
       : type == "movie"
-      ? "&Category%5B%5D=8000"
+      ? "&Category%5B%5D=2000"
       : ""
-  }&Tracker%5B%5D=btsow&cache=false`;
+  }&Category%5B%5D=5080&Category%5B%5D=8000&Tracker%5B%5D=pterclub&cache=false`;
 
   return await fetch(url, {
     headers: {
