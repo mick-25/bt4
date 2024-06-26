@@ -428,8 +428,8 @@ let torrent_results = [];
 
 const hosts = [
   {
-    host: "http://157.97.88.29:9117",
-    apiKey: "xhsfzj61y4r5m6k78jmumk0veumwnqg1",
+    host: "http://172.92.22.73:9117",
+    apiKey: "138wmssa2to150t66oz6zdedjanmx643",
   },
   {
     host: "http://51.15.188.102:9117",
@@ -440,8 +440,8 @@ const hosts = [
     apiKey: "r2q9v8pmrbzyemjk0cfa15opw9sam99f",
   },
   {
-    host: "http://81.150.31.153:9117",
-    apiKey: "1c99yaajym29qbrb715q3me1qwj2d42g",
+    host: "http://82.66.75.36:9117",
+    apiKey: "c50kwdy887xj50m1hhbegjjbk49zjxt6",
   },
   {
     host: "http://209.141.51.175:9117",
@@ -460,7 +460,7 @@ let fetchTorrent = async (query, type = "series") => {
       : type == "movie"
       ? "&Category%5B%5D=8000"
       : ""
-  }&Tracker%5B%5D=btsow&cache=false`;
+  }&category=8000&Tracker%5B%5D=torrentscsv&cache=false`;
 
   return await fetch(url, {
     headers: {
